@@ -1,0 +1,20 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>jp.ng1056.ane.AlertView</id>
+	<versionNumber>1.0.0</versionNumber>
+	<name>
+		<text xml:lang="en_US">AlertView</text>
+		<text xml:lang="ja_JP">AlertView</text>
+	</name>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libAlertView.a</nativeLibrary>
+				<initializer>AlertViewExtInitializer</initializer>
+				<finalizer>AlertViewExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>
